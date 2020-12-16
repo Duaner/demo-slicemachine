@@ -9,7 +9,7 @@ const Page = (props) => <SliceZone {...props} resolver={resolver} />;
 // Fetch content from prismic
 export const getStaticProps = useGetStaticProps({
   client: Client(),
-  uid: "hello",
+  uid: ({ params }) => params.uid,
 });
 
 export const getStaticPaths = useGetStaticPaths({

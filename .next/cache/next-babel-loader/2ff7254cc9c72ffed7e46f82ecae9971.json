@@ -1,0 +1,1 @@
+{"ast":null,"code":"export * from './features/components';","map":{"version":3,"sources":["/Users/renaudbressand/Work/an-awesome-next-app-this-is-like-the-1000-try/node_modules/next-slicezone/resolver.js"],"names":[],"mappings":"AAAA,cAAc,uBAAd","sourcesContent":["export * from './features/components'"]},"metadata":{},"sourceType":"module"}
